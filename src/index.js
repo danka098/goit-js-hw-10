@@ -1,7 +1,7 @@
 import './css/styles.css';
 import { fetchCountries } from './fetchCountries';
 import Notiflix from 'notiflix';
-let debounce = require('lodash.debounce');
+import debounce from 'lodash.debounce'
 
 const inputSearch = document.querySelector('input#search-box');
 const countryList = document.querySelector('.country-list');
